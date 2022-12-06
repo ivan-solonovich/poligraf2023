@@ -31,5 +31,13 @@ export default {
     list-style: none;
   }
 
-
+#app {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  /*background-image: url(../src/assets/rsz_v748-toon-61.jpg);*/
+  /*  background-repeat: no-repeat;*/
+  /*  background-size: cover;*/
+  /*  background-origin: content-box;*/
+}
 </style>
