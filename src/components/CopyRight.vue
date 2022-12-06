@@ -1,5 +1,7 @@
 <template>
-    $END$
+    <div class="copyright">
+        &#169; Poligraf2023
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,13 @@
 </script>
 
 <style scoped>
+.copyright{
+    background-color:  #3F51B5;
 
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
 </style>
