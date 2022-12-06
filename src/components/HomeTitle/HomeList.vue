@@ -34,6 +34,18 @@
         </div>
         <div class="list-container">
 
+            <div class="list-title">
+                <div class="list-logo-container">
+                    <img width="64" height="64" src="../../assets/icons8-сердце.gif" alt="">
+                </div>
+                <div class="list-title-container">
+                    <h3 class="list-title-item"><router-link class="submenu-item" :to="{name:'treason'}">
+                        ПРОВЕРКА НА ИЗМЕНУ</router-link>
+                    </h3>
+
+                </div>
+
+            </div>
             <div class="list-desc">
                 <p>Полуправда опаснее лжи; ложь легче распознать, чем полуправду,
                     которая обычно маскируется, чтобы обманывать вдвойне.(Теодор Гиппель)
@@ -61,18 +73,7 @@
                     Проверка поможет узнать истину о партнере и о возможных мотивах вступления в брак.
                 </p>
             </div>
-            <div class="list-title">
-                <div class="list-logo-container">
-                    <img width="64" height="64" src="../../assets/icons8-сердце.gif" alt="">
-                </div>
-                <div class="list-title-container">
-                    <h3 class="list-title-item"><router-link class="submenu-item" :to="{name:'treason'}">
-                        ПРОВЕРКА НА ИЗМЕНУ</router-link>
-                    </h3>
 
-                </div>
-
-            </div>
 
         </div>
         <div class="list-container">
@@ -135,11 +136,31 @@
         .list-container{
             display: grid;
             grid-template-columns: 1fr;
-            grid-gap: 3rem;
+
             padding-top: 2rem;
             padding-left: 1rem;
             padding-right: 1rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
             margin-top: 2rem;
+        }
+        .list-desc{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 1rem;
+            background-color: #c4c4c4;
+        }
+        .list-logo-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            margin: 1rem;
         }
            }
     .list-title{
@@ -157,6 +178,7 @@
         padding-top: 1rem;
     }
     .list-logo-container{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -166,6 +188,7 @@
         list-style: none;
         cursor: pointer;
         text-decoration: none;
+        text-align: center;
     }
 
     .list-desc{

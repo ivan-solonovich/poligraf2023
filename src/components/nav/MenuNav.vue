@@ -118,7 +118,17 @@
         background-color: darkslategrey;
         transition: background-color 1s ease-out 100ms
     }
+@media screen and (max-width: 1058px) {
+    .submenu {
+        float: left;
+        left: 0;
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
 
+    }
+}
     .slide-fade-enter-active {
 
     transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
