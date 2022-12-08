@@ -4,7 +4,7 @@
             <img class="icon-mess" width="64" height="64" src="../assets/icons-messanger/icons8-whatsapp.gif" alt="">
         </a>
         <a href="viber://chat?number=%2B48799247910">
-        <img class="icon-mess" width="64" height="64"  src="../assets/icons-messanger/icons8-viber.gif" alt="">
+        <img class="icon-mess" width="64" height="64"  src="../assets/icons-messanger/icons8-viber-48.png" alt="">
     </a>
         <a href="https://t.me/%2B48799247910">
             <img class="icon-mess" width="64" height="64" src="../assets/icons-messanger/icons8-телеграмма-app.gif" alt="">

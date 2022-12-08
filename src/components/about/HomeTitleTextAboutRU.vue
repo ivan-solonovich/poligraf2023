@@ -71,5 +71,7 @@
         color: darkgreen;
     ;
     }
-
+    p{
+        padding-left: 1rem;
+    }
 </style>

@@ -5,7 +5,7 @@
             <li>ЗАХИСТИ СВІЙ БІЗНЕС</li>
             <li>БУДЬ ВПЕВНЕНИЙ У СВОЇХ СПІВРОБІТНИКАХ</li>
             <li>БУДЬ ВПЕВНЕНИЙ У ПАРТНЕРАХ З БІЗНЕСУ</li>
-            <li>Не дай себе обдурити</li>
+            <li>НЕ ДАЙ СУБЕ ОБДУРИТИ</li>
             <li>ВЕРНІ ДОВІРУ В СІМ'Ю</li>
         </ul>
         <div class="home-title-text-subtitle-description-container">
@@ -70,5 +70,7 @@
         color: darkgreen;
     ;
     }
-
+    p{
+        padding-left: 1rem;
+    }
 </style>

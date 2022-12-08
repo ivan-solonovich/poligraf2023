@@ -23,13 +23,13 @@
            align-items: center;
         flex-direction: column;
 
-        background-color: #c4c4c4;
+        background-color: #3F51B5;
            padding: 1rem;
     }
     .home-title-main-text{
         text-align: center;
         font-size: 2rem;
-        color:  #3F51B5;
+        color:  #c4c4c4;
         font-family: 'Comforter', cursive;
 
     }

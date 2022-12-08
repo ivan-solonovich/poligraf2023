@@ -19,7 +19,7 @@
         padding-left: 1rem;
     }
     .logo{
-        color: #3F51B5;
+        color: gray;
         width: 100%;
     }
     .logo-main{
