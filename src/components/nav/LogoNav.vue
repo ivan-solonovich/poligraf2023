@@ -1,6 +1,6 @@
 <template>
     <div class="logo">
-        <div class="logo-container" ><img  src="../../assets/photo_2022-11-28_09-13-18.jpg" class="logo-main"><h2>POLIGRAF2023</h2></div>
+        <div class="logo-container" ><img  src="../../assets/photo_2022-11-28_09-13-18.jpg" class="logo-main"><h2>POLYGRAF2023</h2></div>
     </div>
 </template>
 
