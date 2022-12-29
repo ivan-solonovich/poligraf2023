@@ -18,7 +18,14 @@ const routes =
         {
             path: '/',
             name: 'home',
-            component: HomeTitle
+            component: HomeTitle,
+            meta: {
+                sitemap: {
+                    lastmod:    'December 29, 2022',
+                    priority:    1,
+                    changefreq: 'daily',
+                }
+            }
         },
         {
             path: '/price',
